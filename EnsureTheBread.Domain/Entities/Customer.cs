@@ -7,7 +7,7 @@ namespace EnsureTheBread.Domain.Entities
         public string LastName {get;set;}
         public string Address {get;set;}
         public DateTime InsertedIn {get; private set;}
-
+        
         public Customer(){
 
         }

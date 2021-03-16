@@ -6,7 +6,6 @@ namespace EnsureTheBread.Domain.Entities
     {
         public string Description {get;set;}
         public int BarCode {get;set;}
-
         public IEnumerable<ProductProperties> Properties {get;set;}
     }
 }
