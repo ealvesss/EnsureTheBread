@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.26124.0
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31613.86
 MinimumVisualStudioVersion = 15.0.26124.0
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnsureTheBread.Api", "EnsureTheBread.Api\EnsureTheBread.Api.csproj", "{AF2E3642-C377-44B1-8426-F9B916D52E81}"
 EndProject
@@ -19,9 +19,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 		Release|x64 = Release|x64
 		Release|x86 = Release|x86
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{AF2E3642-C377-44B1-8426-F9B916D52E81}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -72,5 +69,11 @@ Global
 		{C26EB957-230B-4D5B-BA0C-57E6807849F8}.Release|x64.Build.0 = Release|Any CPU
 		{C26EB957-230B-4D5B-BA0C-57E6807849F8}.Release|x86.ActiveCfg = Release|Any CPU
 		{C26EB957-230B-4D5B-BA0C-57E6807849F8}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {03E6B2D4-286A-40B6-ACC2-32BB2615FFEC}
 	EndGlobalSection
 EndGlobal

@@ -10,8 +10,8 @@ namespace EnsureTheBread.Api.Controllers
     [Route("v1/customer")]
     public class CustomerController : ControllerBase
     {
-        private IBaseService<Customer> _baseUserService;
-        public CustomerController(IBaseService<Customer> service)
+        private IServiceBase<Customer> _baseUserService;
+        public CustomerController(IServiceBase<Customer> service)
         {
             _baseUserService = service;
         }
@@ -21,7 +21,7 @@ namespace EnsureTheBread.Api.Controllers
              if (customer == null)
                 return NotFound();
 
-             return Execute(() => _baseUserService.Add<CustomerValidator>(customer).Id);
+             return Execute(() => _baseUserService.Create<CustomerValidator>(customer).Id);
          } 
 
          private IActionResult Execute(Func<object> func)

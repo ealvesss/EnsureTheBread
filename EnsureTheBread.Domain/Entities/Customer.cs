@@ -6,6 +6,7 @@ namespace EnsureTheBread.Domain.Entities
         public string FistName {get;set;}
         public string LastName {get;set;}
         public string Address {get;set;}
+        public string Email {get;set;}
         public DateTime InsertedIn {get; private set;}
         
         public Customer(){

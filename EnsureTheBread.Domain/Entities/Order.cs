@@ -7,6 +7,6 @@ namespace EnsureTheBread.Domain.Entities
     {
         public DateTime OrderDate {get;set;}
         public Customer Customer {get;set;}
-        public IEnumerable<Items> Items {get;set;}
+        public IEnumerable<Item> Items {get;set;}
     }
 }
